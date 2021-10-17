@@ -26,7 +26,7 @@ Plugins LevelSystem support Pocketmine-mp
 - /levels addlevel (player-name) (amount)
 - /levels setlevel (player-name) (amount)
 - /levels check (type:progress/level/top) (player-name)
-- /levels top (player-name)
+- /levels top
 - <img src="https://github.com/Ibenrm/LevelSystem/blob/main/resources/img/toplevels.png" alt="TopLevels" width="50%">
 - /levels upgrade
 - /levels settings
