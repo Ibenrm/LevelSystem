@@ -9,9 +9,9 @@ Plugins LevelSystem support Pocketmine-mp
 - customize languages
 
 # Permissions
-- - firework.cmd
-- - progress.cmd
-- - level.cmd
+- - `firework.cmd`
+- - `progress.cmd`
+- - `level.cmd`
 
 # Commands
 - /levelsystem or /levels
