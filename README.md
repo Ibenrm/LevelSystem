@@ -1,6 +1,9 @@
 # LevelSystem
 Plugins LevelSystem support Pocketmine-mp
 
+# Depends
+- <img src="https://github.com/Ibenrm/PureChat" alt "PureChat" width="10%">
+
 # Features
 - customize color per levels (true / false)
 - private world for get xp (true / false)
