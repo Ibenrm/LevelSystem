@@ -2,7 +2,8 @@
 Plugins LevelSystem support Pocketmine-mp
 
 # Depends
-- <img src="https://github.com/Ibenrm/PureChat" alt "PureChat" width="10%">
+- - https://github.com/Ibenrm/PureChat
+- - https://poggit.pmmp.io/p/EconomyAPI/5.7.2
 
 # Features
 - customize color per levels (true / false)
