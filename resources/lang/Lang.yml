@@ -1,0 +1,63 @@
+---
+##############
+# LANG.YML #
+##############
+# AUTHOR: Ibenrm01
+
+not.permissions: "§cYou do not have permissions"
+player.not.found: "§cPlayer not found"
+use.command.in.game: "§cPlease use this command in-game"
+exit-form: "§aThanks for open menu!"
+# tags = {username} = target username
+#        {level} = target levels
+check.level.player: "§aUsername: §b{username}\n§aLevel: §b{level}"
+# tags = {username} = target username
+#        {progress_int} = target progress type number
+#        {progress_structur} = target progress type ■■■■■■■■■■
+#        {need_progress_int} = target need progress type int
+check.progress.player: "§aUsername: §b{username}\n§aProgress: {progress_structur} §7| §c{need_progress_int}"
+# tags = {username} = target username
+#        {need_progress_int} = target need progress type int
+check.need.progress.player: "§aUsername: §b{username}\n§aProgress need to level up: §b{need_progress_int}"
+# tags = {maximum} = number max
+add.progress.maximum: "§climit for add is §d{maximum}"
+# tags = {progress} = add progress
+add.progress.yourself: "§aADD YOUR PROGRESS: §b{progress}"
+# tags = {username} = target username
+#        {progress} = target add progress
+add.progress.player: "§aSuccessfully add progress to §d{username} {progress} §aProgress"
+# tags = {username} = target give username
+#        {progress} = target give add progress
+get.add.progress: "§aYou got progress from §d{username} {progress} §aProgress"
+# tags = {maximum} = number max
+set.progress.maximum: "§climit for add is §d{maximum}"
+# tags = {progress} = add progress
+set.progress.yourself: "§aSET YOUR PROGRESS: §b{progress}"
+# tags = {username} = target username
+#        {progress} = target add progress
+set.progress.player: "§aSuccessfully set progress to §d{username} {progress} §aProgress"
+# tags = {username} = target give username
+#        {progress} = target give add progress
+get.set.progress: "§aYou progress set from §d{username} {progress} §aProgress"
+# tags = {maximum} = number max
+set.level.maximum: "§climit for add is §d{maximum}"
+# tags = {level} = add progress
+set.level.yourself: "§aSET YOUR LEVEL: §b{level}"
+# tags = {username} = target username
+#        {level} = target add progress
+set.level.player: "§aSuccessfully set progress to §d{username} {progress} §aLevel"
+# tags = {username} = target give username
+#        {level} = target give add progress
+get.set.level: "§aYou progress set from §d{username} {level} §aLevel"
+# tags = {before} = before your level
+#        {after} = after levelup
+notice.level.up: "§aYou Level up §d{before} §7> §a{after}"
+# tags = {progress} = needprogress - progress
+you.need.progress: "§cYou need §d{progress} §cprogress to level up"
+# tags = {top} = your top example: #52
+#        {username} = your name
+#        {amount} = your level
+check.top.player: "§d{top} §7>> §a{username} {amount}"
+# tags = {progress} you got progress
+notice.progress: "§aYou got §d{progress}"
+...

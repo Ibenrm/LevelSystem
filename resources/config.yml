@@ -1,0 +1,54 @@
+---
+##############
+# CONFIG.YML #
+##############
+# AUTHOR: Ibenrm01
+
+# SYSTEM
+# after level up, need progress up
+levelup-expneed: 45
+# max for addprogress, setprogress, setlevel
+max-numeric: 1000
+# on / off max level, color level, private world
+max-level: true
+color-level: true
+private-world: false
+# number for max level
+max-level-int: 20
+#color-list:
+#- "(number-level):(color[§])" 
+color-list:
+- "5:§b"
+- "10:§a"
+- "20:§e"
+- "25:§b"
+
+#world-list:
+#- "world_name"
+world-list:
+- "Sky"
+#block-list:
+#- "(id-block):(meta-block):(get-progress)"
+block-list:
+- "1:0:00.2"
+
+# FORMS
+# tags = null
+title-top: "§l§eTOP LEVELS"
+# tags = {top} = number top
+#        {username} = username top
+#        {level} = level top
+content-top: "§e{top} §b>> §a{username} §d{level}"
+# tags = null
+title-stats: "§l§eSTATS LEVEL"
+# tags = {username} = username target
+#        {status} = status [online / offline]
+#        {level} = level target
+#        {top-level} = top level target example: #52
+#        {progress_int} = number target progress
+#        {progress_structur} = structur target progress ala hypixel scoreboard
+#        {need_progress_int} = need progress target for levelup
+content-stats: "§dusername: §b{username} §7| §a{status}\n\n§dlevels: {level}\n§dprogress: §7[ {progress_structur} §7](§b{progress_int}§7) || §c{need_progress_int}\n§dtop level: §a{top-level}"
+# tags = null
+title-settings: "§l§eSETTINGS LEVEL"
+...

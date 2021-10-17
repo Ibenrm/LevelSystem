@@ -1,0 +1,13 @@
+name: LevelSystem
+main: Ibenrm01\Level\Main
+version: 4.8
+api: 3.9.5
+author: Ibenrm01
+
+permissions:
+  firework.cmd:
+    default: op
+  progress.cmd:
+    default: op
+  level.cmd:
+    default: op
