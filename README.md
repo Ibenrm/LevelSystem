@@ -5,7 +5,7 @@ Plugins LevelSystem support Pocketmine-mp
 - - https://github.com/Ibenrm/PureChat
 - - https://poggit.pmmp.io/p/EconomyAPI/5.7.2
 
-# Support Security Lands ( Support LevelSystem )
+# Support Security Lands (Support LevelSystem)
 - - https://poggit.pmmp.io/p/MyPlot
 - - https://poggit.pmmp.io/p/WorldGuard/1.1.96
 - - https://github.com/Ibenrm/EconomyS/tree/master/EconomyLand
